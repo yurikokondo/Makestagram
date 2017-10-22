@@ -12,7 +12,7 @@ class CreateUsernameViewController: UIViewController {
     @IBAction func nextButtonTapped(_ sender: UIButton) {
         UserService.create(firUser, username: username) { (user) in
             guard let _ = user else {
-                return
+                //return
             }
             
             let storyboard = UIStoryboard(name: "Main", bundle: .main)

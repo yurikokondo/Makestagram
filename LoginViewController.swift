@@ -32,6 +32,8 @@ class LoginViewController: UIViewController {
         // 3
         let authViewController = authUI.authViewController()
         present(authViewController, animated: true)
+        
+        print("tapped")
     }
 
     
